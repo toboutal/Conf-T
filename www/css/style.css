@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+}
+#logo {
+    width: 40%;
+    margin:10px auto 10px 25%;
+
+}
+nav {
+  display: inline-block;
+  width: 100%;
+}
+header ul {
+    list-style-type: none;
+}
+
+header li{
+    display: inline;
+}
+
+#header_link {
+    float: right;
+    border: solid black 3px;
+    padding: 10px 40px;
+    margin: 4%;
+}
+header {
+    background-color: antiquewhite;
+}
+p {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+form {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: inline-block;
+}
+fieldset {
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.divField1 {
+   margin:  2% 25%;
+}
+fieldset button {
+  float: right;
+}
+.none {
+  display:none;
+}
+.pollH1 {
+  margin: 2% auto 2% 15%;
+}
+.widthForm {
+  width: 75%;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.btnFooter {
+  float: right;
+  margin: 5%;
+}
+.poll {
+  display: block;
+}
+.poll div {
+  display: inline-flex;
+}
+.square {
+  width:  50px;
+  height:  50px;
+  border: 1px solid black;  
+}
+.paramSquare{
+  display: block !important;
+}
