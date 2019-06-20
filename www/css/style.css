@@ -80,3 +80,24 @@ fieldset button {
 .paramSquare{
   display: block !important;
 }
+
+#container {
+  text-align: center;
+  margin-top: 20px;
+}
+#content {
+  display: inline-block;
+  width: 1000px;
+}
+#container #content form {
+width: 100%;
+margin-left: 0;
+margin-right: 0;
+}
+#container textarea {
+ overflow-y: auto;
+ width: 100%; 
+}
+#container legend {
+  text-align: left;
+}
