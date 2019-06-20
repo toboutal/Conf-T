@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conf&T</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img id="logo" src="img/logo1.png" alt="logo"></li>
+                <li class="none" id="header_link"><a href="#">Lecturer</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <h1 class="pollH1">Create a poll</h1>
+     <form class="widthForm" action="#">
+      <fieldset>
+        <div class="divField1">
+         <label for="questForm">Question's formulation : </label>
+         <input type="text" name="questForm" >
+        </div>
+        <div class="divField1">
+         <label for="answer1">Answer1 : </label>
+         <input type="text" name="answer1">
+         <button>Mod</button>
+        </div>
+        <div class="divField1">
+            <label for="answer2">Answer2 : </label>
+            <input type="text" name="answer2">
+            <button>trash</button>
+        </div>
+        <div class="divField1">
+          <label for="poll">Name of poll : </label>
+          <input type="text" name="poll">
+          <button type="button">Create poll</button>
+        </div>
+      </fieldset>
+    </form>
+    <p>list of poll(s)</p>
+    <form class="widthForm" action="#">
+      <fieldset class="poll">
+        <div>
+          <div class="square">
+            <p>Poll1</p>
+          </div>
+            <div class="paramSquare">
+              <button>mod</button>
+              <button>trash</button>
+              <input type="checkbox" name="check" id="check1">
+            </div>
+          </div> 
+          <div> 
+          <div class="square">
+            <p>Poll2</p>
+          </div>
+              <div class="paramSquare">
+                <button>mod</button>
+                <button>trash</button>
+                <input type="checkbox" name="check" id="check1">
+              </div>
+            </div>
+            <div> 
+              <div class="square">
+                <p>Poll3</p>
+              </div>
+                  <div class="paramSquare">
+                    <button>mod</button>
+                    <button>trash</button>
+                    <input type="checkbox" name="check" id="check1">
+                </div>
+            </div>
+      </fieldset>
+    </form>
+    <footer>
+      <button class="btnFooter"><a href="index.html">Back</a></button>
+    </footer>
+
+</body>
+</html>
